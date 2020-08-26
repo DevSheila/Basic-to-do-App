@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <!-- fontawesome  -->
+        <script defer src="resources/brands.js"></script>
+        <script defer src="resources/solid.js"></script>
+        <script defer src="resources/fontawesome.js"></script>
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="bootstrap.min.css">
+
+        <!-- style css  -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- main js  -->
+        <script src="main.js"></script>
+    <title>Document</title>
+    </head>
+      
+    
+</head>
+<body onload="tasker.construct();" >
+
+    <div id="tasker" class="tasker justify-content">
+
+        <!-- error message -->
+
+        <div id=" error" >Please Enter A task </div>
+
+        <div class="tasker-header">
+
+            <!-- 1.input-header -->
+            <input type="text" id="input-task" placeholder="Enter A Task">
+
+            <!-- 2.Add Button  -->
+                <button id="add-task-btn"> <i class="fa fa-fw fa-plus" ></i></button>
+        </div>
+
+        <div class="tasker-body">
+            <ul id="tasks">
+                <li class="task">
+                    <input type="checkbox" name="" id="">
+                        learn javascript
+                    <button class="delete-task-btn"> <i class="fa fa-trash" ></i></button>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    
+</body>
+</html>
