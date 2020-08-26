@@ -1,0 +1,40 @@
+.tasker ul, .tasker li,
+.tasker .error,
+.tasker button,
+.tasker input{
+    margin:0;
+    padding:0;
+    outline:none;
+    background:transparent;
+    box-sizing: border-box;
+}
+
+.tasker{
+    max-width:400px;
+    margin:0 auto;
+}
+
+body{
+    background :rgb(172, 168, 168);
+    margin-top: 2 rem;
+      
+}
+
+.tasker-header button,  .tasker-body, .task button {
+    border:none;
+    transition:all 0,2s ease;
+    -webkit-transition: all 0,2s ease;
+}
+
+.tasker ul{
+    padding-top: 0.5rem;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
